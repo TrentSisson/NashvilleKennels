@@ -4,7 +4,9 @@ import "./animal/Animal.css"
 import "./customers/customers.css"
 import { Customers } from "./customers/customers"
 import { Employees } from "./employees/employees"
-import { Location } from "./locations/locations"
+// import { Location } from "./locations/locations"
+import { LocationProvider } from "./locations/locationProvider"
+import { LocationList } from "./locations/locationList"
 export const Kennel = () => (
     <>
         <h2>Nashville Kennels</h2>
@@ -29,13 +31,11 @@ export const Kennel = () => (
             <Employees />
             <Employees />
         </article>
-        
-        <h2>Location</h2>
-        <article className="locations">
-            <Location />
-            <Location />
-            {/* <Location /> */}
-        </article>
+
+        <h2>Locations</h2>
+        <LocationProvider>
+            <LocationList />
+        </LocationProvider>
 
         <h2>Customers</h2>
         <article className="customers">
