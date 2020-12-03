@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Kennel } from './components/kennel';
-import { customer} from "./components/customers/customers"
+import { customer } from "./components/customers/customers"
 ReactDOM.render(
   <React.StrictMode>
     <Kennel />
