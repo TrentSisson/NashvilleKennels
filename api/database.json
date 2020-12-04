@@ -6,9 +6,20 @@
             "breed": "Poodle",
             "customerId": 1,
             "locationId": 2
-        }
+        },
         {
-            "id": 1
+            "id": 2,
+            "name": "Patrick",
+            "breed": "Bulldog",
+            "customerId":2,
+            "locationId":2
+        },
+        {
+            "id": 3,
+            "name": "Spongebob",
+            "breed": "MinPin",
+            "customerId":3,
+            "locationId":2
         }
     ],
     "customers": [
@@ -16,9 +27,40 @@
             "id": 1,
             "name": "Hannah Hall",
             "address": "7002 Chestnut Ct"
+        },
+        {
+            "id": 2,
+            "name": "Neil Patrick Harris",
+            "address": "808 Mountain Rd"
+        },
+        {
+            "id": 3,
+            "name": "Stevie Wonder",
+            "address": "230 Shadow Ln"
         }
     ],
-    "employees": [],
+    "employees": [
+        {
+        "id": 1,
+        "name": "Jerome Smike",
+        "locationId":1
+    },
+    {
+        "id": 1,
+        "name": "Peter Parker",
+        "locationId":1
+    },
+    {
+        "id": 1,
+        "name": "Bob Barker",
+        "locationId":2
+    },
+    {
+        "id": 1,
+        "name": "Happy Gilmore",
+        "locationId":2
+    }
+    ],
     "locations": [
         {
             "id": 1,
